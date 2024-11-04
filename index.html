@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration Form</title>
+</head>
+<center>
+<body>
+    <div>
+        <h1>Workshop Registration Form</h1>
+        <h2>Department of Computer Science, SKCT</h2>
+        
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div>
+                <label for="topic">Preferred Date & Topic:</label>
+                <select id="topic" name="topic" required>
+                    <option value="">Select...</option>
+                    <option value="cloud_computing">Day 1: Cloud Computing</option>
+                    <option value="machine_learning">Day 2: Machine Learning</option>
+                    <option value="data_analytics">Day 3: Data Analytics</option>
+                </select>
+            </div>
+            
+            <div>
+                <label>Gender:</label>
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+                <label><input type="radio" name="gender" value="female" required> Female</label>
+                <label><input type="radio" name="gender" value="other" required> Other</label>
+            </div>
+            
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            
+            
+            <div>
+                <h3>Resource Persons:</h3>
+                
+                <div>
+                    <img src="p1.jfif" alt="Cloud Computing Expert" width="50" height="50">
+                    <p><strong>Prof.Sergio Marquina</strong><br>Expert in Cloud Infrastructure and Services</p>
+                </div>
+                
+                <div>
+                    <img src="p2.jfif" alt="Machine Learning Specialist" width="50" height="50">
+                    <p><strong>Prof. Walter White</strong><br>Specialist in Artificial Intelligence and Machine Learning</p>
+                </div>
+                
+                <div>
+                    <img src="p3.jfif" alt="Data Analyst" width="50" height="50">
+                    <p><strong>Mr. Gus Fring</strong><br>Data Analyst with 10+ years of industry experience</p>
+                </div>
+            </div>
+            
+            <div>
+                <button type="submit">Submit Registration</button>
+            </div>
+        </form>
+        
+        <p>* Each participant can register for only one topic on one day.</p>
+    </div>
+</body>
+</center>
+</html>
